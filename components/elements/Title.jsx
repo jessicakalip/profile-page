@@ -31,7 +31,6 @@ const StyledH2 = styled.h2`
     line-height: 76px;
     font-weight: 600;
     font-size: 60px;
-    color: #6AB1A8;
 
     @media only screen and (max-width: ${({ theme }) => theme.screens.md}) {
         letter-spacing: -1px;
