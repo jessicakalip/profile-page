@@ -18,7 +18,6 @@ const StyledH1 = styled.h1`
     font-weight: 700;
     font-size: 80px;
     
-
     @media only screen and (max-width: ${screens.md}) {
         letter-spacing: -1px;
         line-height: 56px;

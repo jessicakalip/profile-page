@@ -1,25 +1,17 @@
 import styled from 'styled-components'
 import { Anchor, Footer } from "../elements";
+import socials from "../../sources/social.json";
 
 const Template = ({ children }) => (
     <StyledTemplate>
-       {children}
+        {children}
+
         <Footer>
-            <Anchor href="https://github.com/jessicakalip">
-                <i className="fab fa-github-square" />
-            </Anchor>
-
-            <Anchor href="https://www.linkedin.com/in/jessica-kalip/">
-                <i className="fab fa-linkedin" />
-            </Anchor>
-
-            <Anchor href="mailto:jessicakalip@gmail.com">
-                <i className="fas fa-envelope-square" />
-            </Anchor>
-
-            <Anchor href="https://drive.google.com/file/d/10UGdA-usuTiCKw2Sq7Wp5p2mvZs7qLWV/view?usp=sharing">
-                <i className="fas fa-file" />
-            </Anchor>
+            {socials.map((item, i) => (
+                <Anchor key={i} href={item.href} target="_blank">
+                    <i className={item.icon} />
+                </Anchor>
+            ))}
         </Footer>
     </StyledTemplate>
 )

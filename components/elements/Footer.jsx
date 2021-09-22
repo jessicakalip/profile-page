@@ -1,23 +1,44 @@
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 
 const Footer = ({ children }) => (
-    <StyledFooter>{children}</StyledFooter>
+    <StyledFooter>
+        <div>{children}</div>
+    </StyledFooter>
 )
 
 const StyledFooter = styled.div`
+    border-top: 1px solid #D3EEE1;
+    background-color: #ffffff;
     position: fixed;
+    padding: 16px;
     width: 100%;
     bottom: 0;
-    background-color: white;
-    text-align: center;
     display: flex;
-    justify-content: center;
     align-items: center;
-    border-top: 1px solid #D3EEE1;
-    height: 50px;
-    font-size: 30px;
-    color: #D3EEE1;
-        cursor: pointer;
+    justify-content: center;
+
+    > div {
+        align-items: center;
+        display: flex;
+        gap: 32px;
+
+        a {
+            transition: background-color 150ms ease;
+            background-color: #D3EEE1;
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 26px;
+            height: 40px;
+            width: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover {
+                background-color: #9dbeae;
+            }
+        }
+    }
 `
 
 export default Footer

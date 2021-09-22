@@ -20,7 +20,6 @@ const Anchor = (props) => {
 }
 
 const StyledAnchor = styled.a`
-
     ${({ version }) => version == 'primary' && css`
         transition: color 150ms ease;
         align-items: baseline;
@@ -33,8 +32,6 @@ const StyledAnchor = styled.a`
             color: #D3EEE1;
         }
     `}
-
-    margin: 4%;
 `
 
 export default Anchor

@@ -14,12 +14,20 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body {
+        font-family: 'Courier New', Courier, monospace;
         overflow-x: hidden;
         font-weight: 400;
         line-height: 1.6;
-        font-size: 18px;
-        font-family: 'Enriqueta', serif;
+        font-size: 16px;
         margin: 0px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Enriqueta', serif;
+    }
+
+    p {
+        color: #333333;
     }
 `;
 

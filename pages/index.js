@@ -8,7 +8,6 @@ import {
   Section,
   Spacer,
   Title,
-  Body,
 } from "../components/elements";
 
 const Home = () => (
@@ -25,7 +24,7 @@ const Home = () => (
           />
           <Title heading={2}>Jessica Kalip</Title>
         </StyledHeader>
-        <Body>
+        <StyledBody>
           <Spacer size="lg" />
 
           <p>Welcome to my profile page!</p>
@@ -98,7 +97,7 @@ const Home = () => (
           <Anchor href="/portfolio" version="primary">
             Checkout my projects here!
           </Anchor>
-        </Body>
+        </StyledBody>
       </Container>
     </Section>
   </Template>
@@ -110,14 +109,17 @@ const StyledHeader = styled.div`
     justify-content: center;
     flex-direction: column;
     display: flex;
-    gap: 20px;
-    font-family; 'Lobster', cursive;
+    gap: 24px;
 
     img {
       // you can also set a theme to store all your values at one place, see _app.js
       border-radius: ${theme.radii.mx};
     }
   `}
+`;
+
+const StyledBody = styled.div`
+  text-align: center;
 `;
 
 export default Home;
