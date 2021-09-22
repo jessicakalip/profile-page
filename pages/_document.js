@@ -31,20 +31,10 @@ export default class MyDocument extends NextDocument {
   render() {
     return (
       <Html>
-        <Head>
-          <link
-            href="https://fonts.googleapis.com/css2?family=Brawler&family=Enriqueta&display=swap"
-            rel="stylesheet"
-          />
-          <link
-            rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
-          />
-        </Head>
+        <Head />
         <body>
           <Main />
           <NextScript />
-          <div id="modal" />
         </body>
       </Html>
     );

@@ -1,26 +1,29 @@
-import { ThemeProvider } from 'styled-components'
-import GlobalStyle from '../styles/Global'
+import { ThemeProvider } from "styled-components";
+import GlobalStyle from "../styles/Global";
+import Head from "next/head";
 
-const theme = {
-    colors: { /* ... */ },
-    screens: {
-        xs: '640px',
-        sm: '768px',
-        md: '1024px',
-        lg: '1280px',
-    },
-    radii: {
-        md: '8px',
-        mx: '9999px'
-    },
-}
+import theme from "../styles/config/theme";
 
 export default function MyApp({ Component, pageProps }) {
-    return (
-        <ThemeProvider theme={theme}>
-            <Component {...pageProps} />
+  return (
+    <>
+      <Head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Brawler&family=Enriqueta&display=swap"
+          rel="stylesheet"
+        />
 
-            <GlobalStyle />
-        </ThemeProvider>
-    )
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+        />
+      </Head>
+
+      <ThemeProvider theme={theme}>
+        <Component {...pageProps} />
+
+        <GlobalStyle />
+      </ThemeProvider>
+    </>
+  );
 }

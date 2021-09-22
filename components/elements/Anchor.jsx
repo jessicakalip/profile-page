@@ -6,7 +6,7 @@ const Anchor = (props) => {
 
     if (!href) throw new Error("You did not specify the attribute 'href'")
 
-    return href.charAt(0) === '/' ? (
+    return href.charAt(0) !== '/' ? (
         <StyledAnchor {...props} rel="noreferrer" version={version}>
             {children}
         </StyledAnchor>

@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components'
+import { colors } from '../../styles/config/theme'
 
 const Tag = ({ children, clickable, selected, onClick }) => (
     <StyledTag clickable={clickable} selected={selected} onClick={onClick}>
@@ -21,15 +22,16 @@ const StyledTag = styled.div`
         cursor: pointer;
 
         &:hover {
-            border: 1px solid #D3EEE1;
-            background: white;
+            border: 1px solid ${colors.green};
+            background: ${colors.white};
+            color: ${colors.green};
         }
     `}
 
     ${({ selected }) => selected && css`
-        border: 1px solid #D3EEE1;
-        background: #D3EEE1;
-        color: white;
+        border: 1px solid ${colors.green};
+        background: ${colors.green};
+        color: ${colors.white};
     `}
 `
 

@@ -74,9 +74,10 @@ const Portfolio = () => {
 
 const PortfolioItem = ({ item }) => (
   <StyledPortfolioItem>
-    <Anchor href={item.href}>
+    <Anchor href={item.href} target="_blank">
       <Title heading={6}>{item.title}</Title>
     </Anchor>
+
     <Spacer size="sm" />
 
     <StyledTags>

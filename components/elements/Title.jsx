@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { screens } from '../../styles/config/theme'
 
 const Title = ({ children, heading }) => (
     <div heading={heading}>
@@ -18,7 +19,7 @@ const StyledH1 = styled.h1`
     font-size: 80px;
     
 
-    @media only screen and (max-width: ${({ theme }) => theme.screens.md}) {
+    @media only screen and (max-width: ${screens.md}) {
         letter-spacing: -1px;
         line-height: 56px;
         font-weight: 600;
@@ -32,7 +33,7 @@ const StyledH2 = styled.h2`
     font-weight: 600;
     font-size: 60px;
 
-    @media only screen and (max-width: ${({ theme }) => theme.screens.md}) {
+    @media only screen and (max-width: ${screens.md}) {
         letter-spacing: -1px;
         line-height: 56px;
         font-weight: 600;
