@@ -9,7 +9,7 @@ const StyledContainer = styled.div`
     position: relative;
     margin-right: auto;
     margin-left: auto;
-    padding: 0 32px;
+    padding: 0 100px;
     width: 100%;
 `
 

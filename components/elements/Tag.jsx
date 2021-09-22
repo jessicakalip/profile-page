@@ -21,14 +21,15 @@ const StyledTag = styled.div`
         cursor: pointer;
 
         &:hover {
-            border: 1px solid #9dedff;
-            background: #ddf2ff;
+            border: 1px solid #D3EEE1;
+            background: white;
         }
     `}
 
     ${({ selected }) => selected && css`
-        border: 1px solid #ffbf9d;
-        background: #fff1dd;
+        border: 1px solid #D3EEE1;
+        background: #D3EEE1;
+        color: white;
     `}
 `
 

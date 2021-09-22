@@ -1,25 +1,25 @@
 [
     { 
-      "tags": ["JavaScript", "HTML", "CSS", "API", "Ruby on Rails", "Geocoder", "Heroku"],
+      "tags": ["JavaScript", "API", "Ruby on Rails", "Geocoder", "Heroku", "Bootstrap"],
       "href": "https://plan-it-for-me.herokuapp.com/",
       "title": "Plan It For Me",
       "content": "Users can create weekend trip itineraries based on their preferred city, trip duration, andinterests. Activities, selected by APIs, are compared to each other by distance and grouped byday for an efficient itinerary."
     },
     { 
-      "tags": ["JavaScript", "HTML", "CSS", "Ruby on Rails", "Geocoder", "Heroku"],
-      "href": "https://plan-it-for-me.herokuapp.com/",
+      "tags": ["JavaScript", "Ruby on Rails", "Geocoder", "Heroku", "Bootstrap"],
+      "href": "https://loan-me.herokuapp.com/",
       "title": "Loan Me",
       "content": "A marketplace for users to requests hangouts with people filtered by location and preferencessuch as age, gender, and interests."
     },
     { 
-      "tags": ["JavaScript", "HTML", "CSS", "Vercel", "React", "NextJS", "Redux"],
-      "href": "https://plan-it-for-me.herokuapp.com/",
+      "tags": ["Vercel", "React", "NextJS", "Redux", "Style Components"],
+      "href": "https://jessicakalip.vercel.app/",
       "title": "Jessica Kalip",
       "content": "This website you're on, which is my personal portfolio"
     },
     { 
       "tags": ["JavaScript", "HTML", "CSS", "API"],
-      "href": "https://plan-it-for-me.herokuapp.com/",
+      "href": "https://github.com/jessicakalip/JavaScript30jk",
       "title": "JavaScript30",
       "content": "A 30-day vanilla JavaScript coding challenge where we built tools such as native speech recognition, creating our own version of the Paint app and photobooth on the browser, and using local storage and event delegation."
     }

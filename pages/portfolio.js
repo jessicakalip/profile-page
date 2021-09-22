@@ -9,6 +9,7 @@ import {
   Spacer,
   Tag,
   Title,
+  Footer,
 } from "../components/elements";
 import projects from "../sources/projects.json";
 import tags from "../sources/tags.json";

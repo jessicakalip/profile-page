@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components'
-import preflightCSS from './Preflight'
+import { createGlobalStyle } from "styled-components";
+import preflightCSS from "./Preflight";
 
 const GlobalStyle = createGlobalStyle`
     ${preflightCSS}
@@ -18,9 +18,9 @@ const GlobalStyle = createGlobalStyle`
         font-weight: 400;
         line-height: 1.6;
         font-size: 18px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Enriqueta', serif;
         margin: 0px;
     }
-`
+`;
 
-export default GlobalStyle
+export default GlobalStyle;

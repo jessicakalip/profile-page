@@ -8,6 +8,7 @@ import {
   Section,
   Spacer,
   Title,
+  Body,
 } from "../components/elements";
 
 const Home = () => (
@@ -18,51 +19,86 @@ const Home = () => (
           <Image
             src="/jess.jpeg"
             alt="My face"
-            height={150}
-            width={150}
+            height={200}
+            width={200}
             objectFit="contain"
           />
-          <Title heading={3}>Jessica Kalip</Title>
+          <Title heading={2}>Jessica Kalip</Title>
         </StyledHeader>
+        <Body>
+          <Spacer size="lg" />
 
-        <Spacer size="lg" />
+          <p>Welcome to my profile page!</p>
 
-        <p>Welcome to my profile page!</p>
+          <Spacer size="sm" />
 
-        <Spacer size="sm" />
+          <p>
+            I am a 25 year old <b>Full-Stack Developer</b> and I recently
+            graduated from <b>Le Wagon</b>, a full-stack web development
+            bootcamp, and have also previously completed the{" "}
+            <b>Introduction to Python Programming</b> course by{" "}
+            <b>Hackwagon Academy</b>.
+          </p>
 
-        <p>
-          I am a 25 year old Full-Stack Developer and I recently graduated from
-          Le Wagon, a full-stack web development bootcamp. I am currently
-          seeking full-time remote positions as a Junior Web Developer. I am
-          looking to create meaningful products in a company with a remote-first
-          culture, supportive teammates, and a fun learning environment!
-        </p>
+          <Spacer size="sm" />
 
-        <Spacer size="sm" />
+          <p>
+            I am currently seeking full-time remote positions as a{" "}
+            <b>Junior Web Developer</b> and am looking to create beautiful and
+            impactful products in a company with a remote-first culture,
+            supportive teammates, and a fun learning environment!
+          </p>
 
-        <p>
-          After several pivots in my career I learned to pick up skills and
-          understand new concepts quickly. My current tech stack revolves around
-          Ruby on Rails and Javascript. I was exposed to API management, setting
-          up back-end infrastructures and designing components on the front.
-        </p>
+          <Spacer size="sm" />
 
-        <Spacer size="sm" />
+          <p>
+            As a bootcamp graduate, I not only understand the theoretical
+            concepts on coding, but am able to{" "}
+            <b>apply the necessary practical skills</b> to create web
+            applications. Having a fresh start in the coding industry, I am also
+            able to quickly absorb and pick up your company best-practices and
+            coding standards. In the past two years, I was a Strategy
+            Consultant, and believe that the transferrable skills I have, such
+            as <b>interviewing stakeholders</b>,{" "}
+            <b>conducting impact assessments</b>, and <b>data analysis</b> will
+            allow me to be an asset to your company.
+          </p>
 
-        <p>
-          I currently have two apps under my belt, “Plan It For Me”, a weekend
-          trip itinerary planner, “Loan Me”, an online marketplace for friends,
-          and counting. I’m enthusiastic about building silly apps on the side
-          for my own amusement, as well as going deeper into Javascript and its
-          related frameworks.
-        </p>
+          <Spacer size="sm" />
 
-        <Spacer size="md" />
+          <p>
+            My current tech stack revolves around <b>Ruby on Rails</b> and{" "}
+            <b>Javascript</b>. I was exposed to <b>API management</b>, setting
+            up back-end infrastructures and designing components on the front. I
+            currently have two apps under my belt, <em>Plan It For Me</em>, a
+            weekend trip itinerary planner, <em>Loan Me</em>, an online
+            marketplace for friends, and counting.
+          </p>
 
-        <Anchor href="/portfolio" version="primary">
-          See my projects and lets grab a coffee.
-        </Anchor>
+          <Spacer size="sm" />
+
+          <p>
+            I’m enthusiastic about building silly apps on the side for my own
+            amusement, as well as going deeper into Javascript and its related
+            frameworks. At the moment, I am learning <b>React</b> and{" "}
+            <b>Redux</b> to improve my front-end skills, and am continuously
+            learning and applying my skills.
+          </p>
+
+          <Spacer size="sm" />
+
+          <p>
+            If you are interested in my current work, and would like to have me
+            onboard for your next project, please contact me through one of the
+            platforms below!
+          </p>
+
+          <Spacer size="md" />
+
+          <Anchor href="/portfolio" version="primary">
+            Checkout my projects here!
+          </Anchor>
+        </Body>
       </Container>
     </Section>
   </Template>
@@ -71,12 +107,11 @@ const Home = () => (
 const StyledHeader = styled.div`
   ${({ theme }) => css`
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     display: flex;
-    gap: 32px;
-
-    @media only screen and (max-width: ${theme.screens.sm}) {
-      flex-direction: column;
-    }
+    gap: 20px;
+    font-family; 'Lobster', cursive;
 
     img {
       // you can also set a theme to store all your values at one place, see _app.js

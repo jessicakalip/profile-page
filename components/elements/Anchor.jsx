@@ -26,13 +26,15 @@ const StyledAnchor = styled.a`
         align-items: baseline;
         display: inline-flex;
         font-weight: 600;      
-        color: #45caf2;
+        color: #6AB1A8;
         cursor: pointer;
 
         &:hover {
-            color: #80e1ff;
+            color: #D3EEE1;
         }
     `}
+
+    margin: 4%;
 `
 
 export default Anchor
