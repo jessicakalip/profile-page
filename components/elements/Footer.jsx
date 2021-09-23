@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { colors } from '../../styles/config/theme'
 
 const Footer = ({ children }) => (
     <StyledFooter>
@@ -7,7 +8,7 @@ const Footer = ({ children }) => (
 )
 
 const StyledFooter = styled.div`
-    border-top: 1px solid #D3EEE1;
+    border-top: 1px solid #eaeaea;
     background-color: #ffffff;
     position: fixed;
     padding: 16px;
@@ -24,7 +25,7 @@ const StyledFooter = styled.div`
 
         a {
             transition: background-color 150ms ease;
-            background-color: #D3EEE1;
+            background-color: ${colors.blue};
             border-radius: 8px;
             color: #ffffff;
             font-size: 26px;
@@ -35,7 +36,7 @@ const StyledFooter = styled.div`
             justify-content: center;
 
             &:hover {
-                background-color: #9dbeae;
+                background-color: ${colors.grey};
             }
         }
     }

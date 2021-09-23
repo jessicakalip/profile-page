@@ -12,7 +12,7 @@
       "content": "A marketplace for users to requests hangouts with people filtered by location and preferencessuch as age, gender, and interests."
     },
     { 
-      "tags": ["Vercel", "React", "NextJS", "Redux", "Style Components"],
+      "tags": ["Vercel", "React", "NextJS", "Redux", "Styled Components"],
       "href": "https://jessicakalip.vercel.app/",
       "title": "Jessica Kalip",
       "content": "This website you're on, which is my personal portfolio"

@@ -9,7 +9,7 @@ export default function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <link
-          href="https://fonts.googleapis.com/css2?family=Enriqueta&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Codystar&family=Zilla+Slab+Highlight:wght@700&display=swap"
           rel="stylesheet"
         />
 

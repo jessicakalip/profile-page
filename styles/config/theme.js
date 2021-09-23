@@ -1,6 +1,19 @@
 export const colors = {
-  green: "#D3EEE1",
   white: "#FFFFFF",
+  black: "#000000",
+  red: "#f94144",
+  orange: "#f3722c",
+  orange2: "#f8961e",
+  orange3: "#f9844a",
+  yellow: "#f9c74f",
+  green: "#90be6d",
+  teal: "#43aa8b",
+  darkTeal: "#4d908e",
+  grey: "#577590",
+  blue: "#277da1",
+  tiffanyBlue: "#6BBADB",
+  darkGrey: "#4D6880",
+  darkGreen: "#34836C",
 };
 
 export const screens = {

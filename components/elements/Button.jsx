@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components'
+import { colors } from '../../styles/config/theme'
 
 const Button = ({ children, version }) => (
     <StyledButton version={version}>{children}</StyledButton>
@@ -9,15 +10,15 @@ const StyledButton = styled.button`
     padding: 12px 20px;
 
     ${({ version }) => version == 'primary' && css`
-        box-shadow: 0 0 0 2px #4dadc9;
-        background: #4dadc9;
-        color: #ffffff;
+        box-shadow: 0 0 0 2px ${colors.darkBlue};
+        background: ${colors.darkBlue};
+        color: ${colors.white};
     `}
 
     ${({ version }) => version == 'secondary' && css`
-        box-shadow: 0 0 0 2px #4dadc9;
-        background: #ffffff;
-        color: #4dadc9;
+        box-shadow: 0 0 0 2px ${colors.darkBlue};
+        background: ${colors.white};
+        color: ${colors.darkBlue};
     `}
 `
 

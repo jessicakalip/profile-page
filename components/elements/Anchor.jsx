@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styled, { css } from 'styled-components'
+import { colors } from '../../styles/config/theme'
 
 const Anchor = (props) => {
     const { children, href, as, version } = props
@@ -22,16 +23,22 @@ const Anchor = (props) => {
 const StyledAnchor = styled.a`
     ${({ version }) => version == 'primary' && css`
         transition: color 150ms ease;
+        color: ${colors.red};
         align-items: baseline;
         display: inline-flex;
         font-weight: 600;      
-        color: #6AB1A8;
         cursor: pointer;
 
         &:hover {
-            color: #D3EEE1;
+            color: ${colors.orange2};
         }
     `}
+
+    h1, h2, h3, h4, h5, h6 {
+        &:hover{
+            text-decoration: underline;
+        }
+    }
 `
 
 export default Anchor

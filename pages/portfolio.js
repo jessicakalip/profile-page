@@ -9,8 +9,8 @@ import {
   Spacer,
   Tag,
   Title,
-  Footer,
 } from "../components/elements";
+import { colors } from "../styles/config/theme";
 import projects from "../sources/projects.json";
 import tags from "../sources/tags.json";
 
@@ -45,10 +45,11 @@ const Portfolio = () => {
               <Tag
                 key={i}
                 clickable
-                selected={items.includes(x)}
-                onClick={() => handleClick(x)}
+                selected={items.includes(x.tech)}
+                onClick={() => handleClick(x.tech)}
+                color={x.color}
               >
-                {x}
+                {x.tech}
               </Tag>
             ))}
           </StyledTags>
@@ -75,14 +76,19 @@ const Portfolio = () => {
 const PortfolioItem = ({ item }) => (
   <StyledPortfolioItem>
     <Anchor href={item.href} target="_blank">
-      <Title heading={6}>{item.title}</Title>
+      <Title heading={6}>
+        {item.title}
+        <i className="fas fa-link" />
+      </Title>
     </Anchor>
 
     <Spacer size="sm" />
 
     <StyledTags>
       {item.tags.map((x, i) => (
-        <Tag key={i}>{x}</Tag>
+        <Tag key={i} reversed color={tags.find((y) => y.tech == x).color}>
+          {x}
+        </Tag>
       ))}
     </StyledTags>
 
@@ -100,6 +106,17 @@ const StyledPortfolio = styled.div`
 
     @media only screen and (max-width: ${theme.screens.sm}) {
       grid-template-columns: unset;
+    }
+
+    h6 {
+      display: flex;
+      align-items: center;
+      column-gap: 8px;
+
+      > i {
+        font-size: 16px;
+        color: ${colors.grey};
+      }
     }
   `}
 `;

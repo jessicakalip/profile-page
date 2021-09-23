@@ -95,7 +95,7 @@ const Home = () => (
           <Spacer size="md" />
 
           <Anchor href="/portfolio" version="primary">
-            Checkout my projects here!
+            Check out my projects here!
           </Anchor>
         </StyledBody>
       </Container>

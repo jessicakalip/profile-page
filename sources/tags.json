@@ -1,1 +1,54 @@
-["JavaScript", "HTML", "CSS", "API", "Ruby on Rails", "Geocoder", "Heroku", "Vercel", "React", "NextJS", "Redux", "Style Components", "Bootstrap"]
+[
+  {
+    "tech":"JavaScript",
+    "color": "red"
+  },
+  {
+    "tech":"HTML",
+    "color": "orange"
+  },
+  {
+    "tech":"CSS",
+    "color": "orange2"
+  },
+  {
+    "tech":"API",
+    "color": "orange3"
+  },
+  {
+    "tech":"Ruby on Rails",
+    "color": "yellow"
+  },
+  {
+    "tech":"Geocoder",
+    "color": "green"
+  },
+  {
+    "tech":"Heroku",
+    "color": "teal"
+  },
+  {
+    "tech":"Vercel",
+    "color": "darkTeal"
+  },
+  {
+    "tech":"React",
+    "color": "grey"
+  },
+  {
+    "tech":"NextJS",
+    "color": "blue"
+  },
+  {
+    "tech":"Redux",
+    "color": "tiffanyBlue"
+  },
+  {
+    "tech":"Styled Components",
+    "color": "darkGrey"
+  },
+  {
+    "tech":"Bootstrap",
+    "color": "darkGreen"
+  }
+ ]

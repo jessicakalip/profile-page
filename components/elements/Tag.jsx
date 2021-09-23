@@ -1,37 +1,46 @@
 import styled, { css } from 'styled-components'
 import { colors } from '../../styles/config/theme'
 
-const Tag = ({ children, clickable, selected, onClick }) => (
-    <StyledTag clickable={clickable} selected={selected} onClick={onClick}>
+const Tag = ({ children, clickable, selected, onClick, color, reversed }) => (
+    <StyledTag clickable={clickable} selected={selected} onClick={onClick} color={color} reversed={reversed}>
         <span>{children}</span>
     </StyledTag>
 )
 
 const StyledTag = styled.div`
-    border: 1px solid #eaeaea;
     text-transform: capitalize;
-    background: #fafafa;
+    background: ${colors.white};
     display: inline-flex;
     align-items: center;
     border-radius: 8px;
     padding: 4px 12px;
-    color: #333333;
     font-size: 12px;
 
-    ${({ clickable }) => clickable && css`
-        cursor: pointer;
+    ${({ color, clickable, selected, reversed }) => color && css`
+        box-shadow: 0 0 0 1px ${colors[color]};
+        color: ${colors[color]};
 
-        &:hover {
-            border: 1px solid ${colors.green};
-            background: ${colors.white};
-            color: ${colors.green};
-        }
-    `}
+        ${clickable && css`
+            cursor: pointer;
 
-    ${({ selected }) => selected && css`
-        border: 1px solid ${colors.green};
-        background: ${colors.green};
-        color: ${colors.white};
+            &:hover {
+                box-shadow: 0 0 0 1px ${colors[color]};
+                background: ${colors.white};
+                color: ${colors[color]};
+            }
+        `}
+
+        ${reversed && css`
+            box-shadow: 0 0 0 1px ${colors[color]};
+            background: ${colors[color]};
+            color: ${colors.white};
+        `}
+
+        ${selected && css`
+            box-shadow: 0 0 0 1px ${colors[color]};
+            background: ${colors[color]};
+            color: ${colors.white};
+        `}
     `}
 `
 
