@@ -32,20 +32,23 @@ const Home = () => (
           <Spacer size="sm" />
 
           <p>
-            I am a 25 year old <b>Full-Stack Developer</b> and I recently
-            graduated from <b>Le Wagon</b>, a full-stack web development
-            bootcamp, and have also previously completed the{" "}
-            <b>Introduction to Python Programming</b> course by{" "}
-            <b>Hackwagon Academy</b>.
+            I am a 25 year old <b>Full-Stack Developer</b> and I recently
+            graduated from the{" "}
+            <b>Le Wagon full-stack web development bootcamp</b> in Bali. After
+            being first exposed to coding through the{" "}
+            <b>Introduction to Python Programming</b> course by 
+            <b>Hackwagon Academy</b> in Singapore, I decided to explore a career
+            in coding with <b>Le Wagon</b>, which is the <b>most acclaimed</b>{" "}
+            coding bootcamp worldwide on <em>Switchup</em>.
           </p>
 
           <Spacer size="sm" />
 
           <p>
             I am currently seeking full-time remote positions as a{" "}
-            <b>Junior Web Developer</b> and am looking to create beautiful and
-            impactful products in a company with a remote-first culture,
-            supportive teammates, and a fun learning environment!
+            <b>Junior Web Developer</b> and am looking to create impactful
+            products in a company with a remote-first culture, supportive
+            teammates, and a fun learning environment!
           </p>
 
           <Spacer size="sm" />
@@ -67,21 +70,21 @@ const Home = () => (
 
           <p>
             My current tech stack revolves around <b>Ruby on Rails</b> and{" "}
-            <b>Javascript</b>. I was exposed to <b>API management</b>, setting
-            up back-end infrastructures and designing components on the front. I
-            currently have two apps under my belt, <em>Plan It For Me</em>, a
-            weekend trip itinerary planner, <em>Loan Me</em>, an online
-            marketplace for friends, and counting.
+            <b>Javascript</b>. I was exposed to <b>APIs</b>, setting up back-end
+            infrastructures and designing components on the front. I currently
+            have two apps under my belt, <em>Plan It For Me</em>, a weekend trip
+            itinerary planner, <em>Loan Me</em>, an online marketplace for
+            friends, and counting.
           </p>
 
           <Spacer size="sm" />
 
           <p>
-            I’m enthusiastic about building silly apps on the side for my own
-            amusement, as well as going deeper into Javascript and its related
-            frameworks. At the moment, I am learning <b>React</b> and{" "}
-            <b>Redux</b> to improve my front-end skills, and am continuously
-            learning and applying my skills.
+            I’m enthusiastic about building my own apps on the side, as well as
+            going deeper into Javascript and its related frameworks. At the
+            moment, I am learning <b>React</b> and <b>Redux</b> to improve my
+            front-end skills, and am continuously learning and applying my
+            skills.
           </p>
 
           <Spacer size="sm" />
