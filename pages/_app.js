@@ -22,7 +22,7 @@ export default function MyApp({ Component, pageProps }) {
         <meta
           name="image"
           property="og:image"
-          content="https://live.staticflickr.com/65535/51510644505_659124e6e2_k.jpg"
+          content="https://live.staticflickr.com/65535/51526824730_61fe4cd875_k.jpg"
         />
         <meta
           name="description"
