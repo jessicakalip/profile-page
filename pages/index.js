@@ -53,6 +53,7 @@ const Home = () => (
             <a
               href="http://www.collato.com"
               style={{ "text-decoration": "underline" }}
+              target="_blank"
             >
               Landing Page
             </a>
@@ -86,14 +87,14 @@ const Home = () => (
           </p>
           <Spacer size="md" />
           <p>
-            I’m currently learning Blender with
+            I’m currently learning Blender with{" "}
             <a
               href="https://www.udemy.com/course/blendertutorial/"
               style={{ "text-decoration": "underline" }}
+              target="_blank"
             >
-              {" "}
-              this{" "}
-            </a>
+              this
+            </a>{" "}
             comprehensive course as I hope to make beautiful visuals to
             incorporate into my websites, and maybe one day I’ll get to create
             amazing games and videos, who knows!
