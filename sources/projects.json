@@ -1,4 +1,16 @@
 [
+  { 
+      "tags": ["JavaScript", "HTML", "CSS", "NextJS", "TailWind"],
+      "href": "https://jess-travel-blog.vercel.app/",
+      "title": "Jess Travel Blog",
+      "content": "Where I collect all my adventures and stories from my year abroad in Europe."
+    },
+    { 
+      "tags": ["Vercel", "React", "NextJS", "Styled Components"],
+      "href": "https://jessicakalip.vercel.app/",
+      "title": "Jessica Kalip Portfolio",
+      "content": "This website you're on, which is my personal portfolio"
+    },
     { 
       "tags": ["JavaScript", "API", "Ruby on Rails", "Geocoder", "Heroku", "Bootstrap"],
       "href": "https://plan-it-for-me.herokuapp.com/",
@@ -10,12 +22,6 @@
       "href": "https://loan-me.herokuapp.com/",
       "title": "Loan Me",
       "content": "A marketplace for users to requests hangouts with people filtered by location and preferencessuch as age, gender, and interests."
-    },
-    { 
-      "tags": ["Vercel", "React", "NextJS", "Styled Components"],
-      "href": "https://jessicakalip.vercel.app/",
-      "title": "Jessica Kalip",
-      "content": "This website you're on, which is my personal portfolio"
     },
     { 
       "tags": ["JavaScript", "HTML", "CSS", "API"],
