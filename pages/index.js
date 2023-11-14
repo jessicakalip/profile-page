@@ -54,6 +54,7 @@ const Home = () => (
               href="http://www.collato.com"
               style={{ "text-decoration": "underline" }}
               target="_blank"
+              rel="noreferrer"
             >
               Landing Page
             </a>
@@ -92,6 +93,7 @@ const Home = () => (
               href="https://www.udemy.com/course/blendertutorial/"
               style={{ "text-decoration": "underline" }}
               target="_blank"
+              rel="noreferrer"
             >
               this
             </a>{" "}
