@@ -50,5 +50,9 @@
   {
     "tech":"Bootstrap",
     "color": "darkGreen"
+  },
+  {
+    "tech":"TailWind",
+    "color": "red"
   }
  ]
