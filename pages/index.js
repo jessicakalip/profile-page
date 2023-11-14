@@ -33,8 +33,8 @@ const Home = () => (
             I’m Jessica Kalip, a 27 year old Full-Stack Developer with 2 years
             of programming experience. I started my programming career with the
             <b> Le Wagon full-stack web development bootcamp</b> in Bali and
-            have continued on to work full-time (Jan 2022 - Jul 2023), and then
-            freelance (August 2023 onwards) for{" "}
+            have continued on to work full-time in Berlin (Jan 2022 - Jul 2023),
+            and then remote as a freelancer (August 2023 onwards) for{" "}
             <b>Collato, an AI Product Assistant startup based in Berlin.</b>
           </p>
           <Spacer size="sm" />
