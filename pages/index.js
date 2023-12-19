@@ -30,19 +30,20 @@ const Home = () => (
           <Title heading={5}>Hi there! Welcome to my portfolio website!</Title>
           <Spacer size="sm" />
           <p>
-            I’m Jessica Kalip, a 27 year old Full-Stack Developer with 2 years
-            of programming experience. I started my programming career with the
-            <b> Le Wagon full-stack web development bootcamp</b> in Bali and
-            have continued on to work full-time in Berlin (Jan 2022 - Jul 2023),
-            and then remote as a freelancer (August 2023 onwards) for{" "}
+            I’m Jessica Kalip, a Full-Stack Developer with 2 years of
+            programming experience. I transitioned from consulting to a
+            programming career with the{" "}
+            <b> Le Wagon full-stack web development bootcamp</b> in Bali (June
+            2021) and have continued on to work full-time (Jan 2022 - Jul 2023),
+            and then freelance (August 2023 - January 2024) for{" "}
             <b>Collato, an AI Product Assistant startup based in Berlin.</b>
           </p>
           <Spacer size="sm" />
           <p>
-            I am currently open to freelance remote positions as a
+            I am <b>currently open to full-time positions</b> as a
             <b> Full-Stack Web Developer</b> and am looking to create impactful
-            products in a company with a remote-first culture, supportive
-            teammates, and a fun learning environment!
+            products in a company with supportive teammates, and a fun learning
+            environment!
           </p>
           <Spacer size="sm" />
           <p>
@@ -63,11 +64,14 @@ const Home = () => (
           <Spacer size="sm" />
           <p>
             Examples of some of the tasks I undertook during my time with
-            Collato were writing tests in Jest and Cypress, setting up the
-            Storybook Component Library, setting up Gatsby Preview to aid the
-            growth team in visualising changes before it goes live, making the
-            app mobile-responsive, as well as creating the Podcast page on our
-            Landing Page.
+            Collato were writing <b>end-to-end tests</b> in Cypress,{" "}
+            <b>unit tests </b>
+            with Jest, developing their <b>Version History feature</b>, setting
+            up the <b>Storybook Component Library</b>, setting up{" "}
+            <b>Gatsby Live Preview </b>
+            to aid the growth team in visualising changes before it goes live,
+            making the app <b>mobile-responsive</b>, as well as creating the{" "}
+            <b>Podcast page</b> on our Landing Page.
           </p>
           <Spacer size="md" />
           <Title heading={5}>My Tech Stack includes</Title>
@@ -111,13 +115,8 @@ const Home = () => (
           </p>
           <Spacer size="sm" />
           <p>
-            Next on my ✈️ bucket list: Mongolia / Toraja / returning to Mexico
-            🌮
-          </p>
-          <Spacer size="sm" />
-          <p>
-            Languages I speak (or try to…): English (native) / Indonesian
-            (decent enough) / Chinese (decent enough) / German (B2) / Spanish
+            <b>Languages</b> I speak (or try to…): English (native) | Indonesian
+            (decent enough) | Chinese (decent enough) | German (B2) | Spanish
             (A2)
           </p>
           <Spacer size="sm" />
