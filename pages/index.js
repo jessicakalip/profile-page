@@ -26,7 +26,6 @@ const Home = () => (
         </StyledHeader>
         <StyledBody>
           <Spacer size="lg" />
-
           <Title heading={5}>Hi there! Welcome to my portfolio website!</Title>
           <Spacer size="sm" />
           <p>
@@ -73,6 +72,20 @@ const Home = () => (
             making the app <b>mobile-responsive</b>, as well as creating the{" "}
             <b>Podcast page</b> on our Landing Page.
           </p>
+          <Spacer size="md" />
+          <Title heading={5}>FEATURED IN</Title>
+          <a
+            href="https://www.businessinsider.com/career-change-consulting-coding-boot-camp-quit-job-advice-bali-2023-12"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Image
+              src="/business-insider-logo.png"
+              alt="Business Insider Logo"
+              width="150"
+              height="100"
+            />{" "}
+          </a>
           <Spacer size="md" />
           <Title heading={5}>My Tech Stack includes</Title>
           <p>
@@ -125,9 +138,7 @@ const Home = () => (
             onboard for your next project, please contact me through one of the
             platforms below!
           </p>
-
           <Spacer size="md" />
-
           <Anchor href="/portfolio" version="primary">
             Check out my projects here!
           </Anchor>
