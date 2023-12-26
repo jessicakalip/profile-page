@@ -77,6 +77,7 @@ const Home = () => (
           <a
             href="https://www.businessinsider.com/career-change-consulting-coding-boot-camp-quit-job-advice-bali-2023-12"
             target="_blank"
+            rel="noreferrer"
           >
             <Image
               src="/business-insider-logo.png"
